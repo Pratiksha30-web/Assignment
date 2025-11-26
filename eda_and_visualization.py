@@ -153,11 +153,11 @@ class SentimentAnalyzer:
         
         # Remove very common generic words
         generic_words = {'phone', 'product', 'shoes', 'iphone', 'nike', 'flipkart', 'order', 'bought'}
-        word_freq = {word: count for word, count in word_freq.items() 
-                     if word not in generic_words and len(word) > 3}
+        filtered_freq = {word: count for word, count in word_freq.items() 
+                         if word not in generic_words and len(word) > 3}
         
         # Get top pain points
-        top_pain_points = word_freq.most_common(15)
+        top_pain_points = Counter(filtered_freq).most_common(15)
         
         print("\nTop 15 Pain Points (from negative reviews):")
         for i, (word, count) in enumerate(top_pain_points, 1):
@@ -179,11 +179,11 @@ class SentimentAnalyzer:
         
         # Remove very common generic words
         generic_words = {'phone', 'product', 'shoes', 'iphone', 'nike', 'flipkart', 'order', 'bought', 'got'}
-        word_freq = {word: count for word, count in word_freq.items() 
-                     if word not in generic_words and len(word) > 3}
+        filtered_freq = {word: count for word, count in word_freq.items() 
+                         if word not in generic_words and len(word) > 3}
         
         # Get top praise points
-        top_praise_points = word_freq.most_common(15)
+        top_praise_points = Counter(filtered_freq).most_common(15)
         
         print("\nTop 15 Praise Points (from positive reviews):")
         for i, (word, count) in enumerate(top_praise_points, 1):
@@ -346,11 +346,11 @@ class VisualizationDashboard:
         
         # Remove generic words
         generic_words = {'phone', 'product', 'shoes', 'iphone', 'nike', 'flipkart', 'order', 'bought', 'got'}
-        word_freq = {word: count for word, count in word_freq.items() 
-                     if word not in generic_words and len(word) > 3}
+        filtered_freq = {word: count for word, count in word_freq.items() 
+                         if word not in generic_words and len(word) > 3}
         
         # Get top 10
-        top_10 = dict(word_freq.most_common(10))
+        top_10 = dict(Counter(filtered_freq).most_common(10))
         
         words = list(top_10.keys())
         counts = list(top_10.values())
@@ -420,7 +420,13 @@ def generate_insights_report(df, insights, pain_points, praise_points):
     report.append("-" * 70)
     report.append(f"Total Reviews Analyzed: {len(df):,}")
     report.append(f"Products: {', '.join(df['product'].unique())}")
-    report.append(f"Date Range: {df['date'].min()} to {df['date'].max()}" if 'date' in df.columns and df['date'].notna().any() else "Date Range: Not available")
+    try:
+        if 'date' in df.columns and df['date'].notna().any():
+            report.append(f"Date Range: {df['date'].min()} to {df['date'].max()}")
+        else:
+            report.append("Date Range: Not available")
+    except:
+        report.append("Date Range: Not available")
     report.append("")
     
     # Sentiment Summary

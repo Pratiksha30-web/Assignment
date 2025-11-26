@@ -1,0 +1,84 @@
+======================================================================
+SENTIMENT ANALYSIS INSIGHTS REPORT
+======================================================================
+
+DATASET OVERVIEW
+----------------------------------------------------------------------
+Total Reviews Analyzed: 632
+Products: iPhone 14, Nike Shoes
+Date Range: Not available
+
+SENTIMENT SUMMARY
+----------------------------------------------------------------------
+Positive: 87.8% (555 reviews)
+Negative: 12.2% (77 reviews)
+
+PRODUCT-WISE PERFORMANCE
+----------------------------------------------------------------------
+iPhone 14:
+  - Positive Sentiment: 100.0%
+  - Average Rating: 4.82/5.0
+  - Total Reviews: 451
+
+Nike Shoes:
+  - Positive Sentiment: 57.5%
+  - Average Rating: 3.22/5.0
+  - Total Reviews: 181
+
+KEY BUSINESS INSIGHTS
+----------------------------------------------------------------------
+1. Overall Customer Satisfaction
+   Overall, 87.8% of reviews are positive, while 12.2% are negative. This indicates strong customer satisfaction.
+
+2. Product Performance Comparison
+   iPhone 14 has the highest positive sentiment at 100.0%, while Nike Shoes has the lowest at 57.5%. Difference: 42.5 percentage points.
+
+3. Most Common Customer Complaints
+   The top 3 complaints mentioned in negative reviews are: Customer Service (61.0%), Price (32.5%), Delivery (19.5%). Addressing these issues could significantly improve customer satisfaction.
+
+4. Review Length and Sentiment Relationship
+   Negative reviews are on average 529.5% longer (Positive: 14 words, Negative: 90 words). Customers with issues tend to write more detailed reviews.
+
+5. Sentiment Trend Over Time
+   Customer sentiment is declining over time (decreasing by 0.00% per month on average). This suggests product/service quality is deteriorating.
+
+6. Rating Distribution Insights
+   Most common rating is 5.0 stars, with median rating of 5.0. 454 reviews (71.8%) gave perfect 5-star ratings, indicating strong brand loyalty.
+
+TOP CUSTOMER PAIN POINTS (from negative reviews)
+----------------------------------------------------------------------
+ 1. customer             - mentioned  57 times
+ 2. service              - mentioned  48 times
+ 3. time                 - mentioned  45 times
+ 4. shoe                 - mentioned  45 times
+ 5. even                 - mentioned  31 times
+ 6. online               - mentioned  30 times
+ 7. never                - mentioned  29 times
+ 8. email                - mentioned  28 times
+ 9. ordered              - mentioned  26 times
+10. would                - mentioned  25 times
+
+TOP CUSTOMER PRAISE POINTS (from positive reviews)
+----------------------------------------------------------------------
+ 1. good                 - mentioned 168 times
+ 2. awesome              - mentioned 109 times
+ 3. great                - mentioned 103 times
+ 4. camera               - mentioned 101 times
+ 5. best                 - mentioned  98 times
+ 6. very                 - mentioned  88 times
+ 7. nice                 - mentioned  83 times
+ 8. quality              - mentioned  82 times
+ 9. battery              - mentioned  58 times
+10. performance          - mentioned  57 times
+
+RECOMMENDATIONS
+----------------------------------------------------------------------
+1. Focus on addressing the top pain points identified in negative reviews
+2. Leverage positive aspects mentioned in praise points for marketing
+3. Monitor sentiment trends over time to catch issues early
+4. Product-specific improvements based on sentiment analysis
+5. Implement feedback loops to continuously improve customer experience
+
+======================================================================
+END OF REPORT
+======================================================================

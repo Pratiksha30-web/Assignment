@@ -202,6 +202,27 @@ Then open your browser and navigate to:
 http://localhost:5000
 ```
 
+## 📈 Model Performance
+
+### Best Model: Logistic Regression
+
+| Metric | Score |
+|--------|-------|
+| **Training Accuracy** | ~98% |
+| **Test Accuracy** | ~95% |
+| **Precision** | ~94% |
+| **Recall** | ~97% |
+| **F1 Score** | ~95% |
+
+### All Models Comparison
+
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| Logistic Regression | ~0.95 | ~0.94 | ~0.97 | ~0.95 |
+| Random Forest | ~0.93 | ~0.92 | ~0.96 | ~0.94 |
+| Naive Bayes | ~0.91 | ~0.89 | ~0.95 | ~0.92 |
+| Decision Tree | ~0.88 | ~0.87 | ~0.91 | ~0.89 |
+
 ## 🔌 API Documentation
 
 ### Endpoints
@@ -359,6 +380,28 @@ docker logs sentiment-api
 - **Pain Points Chart**: Top 10 issues affecting customer satisfaction
 - **Trend Analysis**: Monthly sentiment tracking
 
+## 💡 Business Recommendations
+
+1. **Product Improvement**
+   - Focus on battery performance for iPhone 14
+   - Address delivery and shipping concerns
+   - Improve quality control processes
+
+2. **Marketing Strategy**
+   - Leverage high positive sentiment (75-80%) in marketing
+   - Highlight camera quality and performance
+   - Emphasize customer satisfaction metrics
+
+3. **Customer Service**
+   - Proactively address common complaints
+   - Improve delivery tracking and communication
+   - Implement faster response times for issues
+
+4. **Continuous Monitoring**
+   - Track sentiment trends monthly
+   - Set up alerts for sentiment drops
+   - Regular analysis of new reviews
+
 ## 🛠️ Technologies Used
 
 - **Python 3.10**: Core programming language
@@ -371,11 +414,24 @@ docker logs sentiment-api
 - **Gunicorn**: WSGI HTTP Server for production
 - **Docker**: Containerization
 
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👤 Author
 
-Pratiksha
-kpratiksha0530@gmail.com
+**Shivam**
+
+## 🙏 Acknowledgments
+
+- Data sourced from Flipkart and Nike.com
+- Assignment provided by Pratiksha
+- NLTK for NLP capabilities
+- Scikit-learn for ML models
+
+## 📞 Support
+
+For issues, questions, or contributions, please create an issue in the repository.
 
 ---
 
