@@ -202,27 +202,6 @@ Then open your browser and navigate to:
 http://localhost:5000
 ```
 
-## 📈 Model Performance
-
-### Best Model: Logistic Regression
-
-| Metric | Score |
-|--------|-------|
-| **Training Accuracy** | ~98% |
-| **Test Accuracy** | ~95% |
-| **Precision** | ~94% |
-| **Recall** | ~97% |
-| **F1 Score** | ~95% |
-
-### All Models Comparison
-
-| Model | Accuracy | Precision | Recall | F1 Score |
-|-------|----------|-----------|--------|----------|
-| Logistic Regression | ~0.95 | ~0.94 | ~0.97 | ~0.95 |
-| Random Forest | ~0.93 | ~0.92 | ~0.96 | ~0.94 |
-| Naive Bayes | ~0.91 | ~0.89 | ~0.95 | ~0.92 |
-| Decision Tree | ~0.88 | ~0.87 | ~0.91 | ~0.89 |
-
 ## 🔌 API Documentation
 
 ### Endpoints
