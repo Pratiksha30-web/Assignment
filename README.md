@@ -373,34 +373,6 @@ docker logs sentiment-api
    - Median rating: 5 stars
    - 60-70% of reviews are 5-star ratings
 
-### Visualization Highlights
-
-- **Sentiment Dashboard**: 6-panel comprehensive visualization
-- **Word Clouds**: Clear differentiation between positive and negative language
-- **Pain Points Chart**: Top 10 issues affecting customer satisfaction
-- **Trend Analysis**: Monthly sentiment tracking
-
-## 💡 Business Recommendations
-
-1. **Product Improvement**
-   - Focus on battery performance for iPhone 14
-   - Address delivery and shipping concerns
-   - Improve quality control processes
-
-2. **Marketing Strategy**
-   - Leverage high positive sentiment (75-80%) in marketing
-   - Highlight camera quality and performance
-   - Emphasize customer satisfaction metrics
-
-3. **Customer Service**
-   - Proactively address common complaints
-   - Improve delivery tracking and communication
-   - Implement faster response times for issues
-
-4. **Continuous Monitoring**
-   - Track sentiment trends monthly
-   - Set up alerts for sentiment drops
-   - Regular analysis of new reviews
 
 ## 🛠️ Technologies Used
 
@@ -420,20 +392,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-**Shivam**
+**Pratiksha**
+**kpratiksha0530@gmail.com**
 
-## 🙏 Acknowledgments
 
-- Data sourced from Flipkart and Nike.com
-- Assignment provided by Pratiksha
-- NLTK for NLP capabilities
-- Scikit-learn for ML models
-
-## 📞 Support
-
-For issues, questions, or contributions, please create an issue in the repository.
-
----
-
-**Built with ❤️ for sentiment analysis**
 
